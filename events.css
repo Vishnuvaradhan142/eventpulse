@@ -1,0 +1,222 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #0073e6;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 20px;
+}
+.logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.search-bar {
+    width: 80%;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.logout-btn:hover {
+    background: darkred;
+}
+
+/* Navigation */
+nav {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 170px;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav button {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+nav button:hover {
+    background: #0073e6;
+    color: white;
+}
+
+/* Main Content */
+main {
+    padding-top: 250px; /* Prevents content overlap */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Calendar Section */
+.calendar-container {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Event Sections */
+.live-events, .upcoming-events, .completed-events {
+    background: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+.live-events h2, .upcoming-events h2, .completed-events h2 {
+    color: #0073e6;
+    text-align: center;
+}
+
+/* Event Lists */
+#live-events, #upcoming-events, #completed-events {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#live-events li, #upcoming-events li, #completed-events li {
+    background: #eee;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#live-events li strong, #upcoming-events li strong, #completed-events li strong {
+    font-size: 16px;
+}
+
+/* Remove underline from event links */
+.event-link {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.event-link:hover {
+    text-decoration: underline;
+    color: #005bb5;
+}
+
+/* Favorite Button Styles */
+.fav-btn {
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Favorite Button Colors */
+.fav-btn:hover {
+    transform: scale(1.2);
+}
+
+.fav-btn[data-fav="false"] {
+    color: black; /* Star (Not in Favorites) */
+}
+
+.fav-btn[data-fav="true"] {
+    color: gold; /* Filled Star (In Favorites) */
+}
+
+/* Pin Button Styles */
+.pin-btn {
+    border: none;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.pin-btn:hover {
+    transform: scale(1.2);
+}
+
+/* Pin Button Colors */
+.pin-btn[data-pin="false"] {
+    color: gray; /* Pin (Not Pinned) */
+}
+
+.pin-btn[data-pin="true"] {
+    color: red; /* Unpin (Pinned) */
+}
+
+/* Calendar Styles */
+#calendar {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}

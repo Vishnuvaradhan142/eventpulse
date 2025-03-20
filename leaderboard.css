@@ -1,0 +1,50 @@
+/* Leaderboard Styling */
+.leaderboard-container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.sort-options {
+    margin-bottom: 15px;
+}
+
+main {
+    padding-top: 250px;
+}
+
+.sort-options button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+}
+
+.sort-options button:hover {
+    background: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}

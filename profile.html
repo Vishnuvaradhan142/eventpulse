@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - EventPulse</title>
+    <link rel="stylesheet" href="profile.css">
+    <script defer src="profile.js"></script>
+</head>
+<body>
+
+    <!-- Fixed Header -->
+    <header>
+        <div class="logo">EventPulse</div>
+        <p class="tagline">Discover. Engage. Celebrate.</p>
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </header>
+
+    <!-- Fixed Navigation -->
+    <nav>
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='calendar.html'">Calendar</button>
+        <button onclick="window.location.href='favorites.html'">Favorites</button>
+        <button onclick="window.location.href='leaderboard.html'">Leaderboard</button>
+        <button onclick="window.location.href='events.html'">Events</button>
+        <button onclick="window.location.href='profile.html'">Profile</button>
+    </nav>
+
+    <!-- Profile Section -->
+    <main class="profile-container">
+        <div class="profile-pic">
+            <img id="profileImage" src="https://in.images.search.yahoo.com/images/view;_ylt=AwrKEZeYEttn8awt9t.9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzZlODU4YTYzZmRkZmYzMDNiMGFjOTE4OWM3ZDVkYThlBGdwb3MDMTYEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dunknown%2Bprofile%2Bpic%26type%3DE210IN660G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D16&w=360&h=360&imgurl=t3.ftcdn.net%2Fjpg%2F03%2F53%2F11%2F00%2F360_F_353110097_nbpmfn9iHlxef4EDIhXB1tdTD0lcWhG9.jpg&rurl=https%3A%2F%2Fstock.adobe.com%2Fat%2Fsearch%3Fk%3Dunknown%2520avatar&size=6KB&p=unknown+profile+pic&oid=6e858a63fddff303b0ac9189c7d5da8e&fr2=piv-web&fr=mcafee&tt=Unknown+Avatar+Bilder+%E2%80%93+Durchsuchen+3%2C706+Archivfotos%2C+Vektorgrafiken+...&b=0&ni=21&no=16&ts=&tab=organic&sigr=kFn_9ZQbk5YL&sigb=x59VskPouUSe&sigi=9RZKY7Pig.r_&sigt=isVmuBlyiTYY&.crumb=9Xh12dInSyX&fr=mcafee&fr2=piv-web&type=E210IN660G0" alt="Profile Picture">
+            <input type="file" id="uploadImage" accept="image/*" disabled>
+        </div>
+
+        <div class="profile-details">
+            <label>Name:</label>
+            <input type="text" id="name" disabled placeholder="Enter your name">
+
+            <label>Email:</label>
+            <input type="email" id="email" disabled placeholder="Enter your email">
+
+            <label>Role:</label>
+            <select id="role" disabled>
+                <option value="user">User</option>
+                <option value="admin">Admin</option>
+            </select>
+
+            <button id="editBtn" onclick="toggleEdit()">Edit</button>
+            <button id="saveBtn" onclick="saveProfile()" style="display:none;">Save</button>
+        </div>
+    </main>
+
+    <footer>
+        <a href="#">Help Center</a>
+        <a href="#">Feedback</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Social Media</a>
+    </footer>
+
+    <script>
+        function logout() {
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>

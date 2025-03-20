@@ -1,0 +1,44 @@
+{
+    "upcoming": [
+        {
+            "name": "Artificial Intelligence Summit",
+            "date": "15-04-2024",
+            "venue": "Hyderabad International Convention Center",
+            "lat": 17.5600,
+            "lng": 78.3800,
+            "link": "event-template.html?event=Artificial Intelligence Summit",
+            "organizer": "AI Research Institute",
+            "description": "A premier gathering of AI experts, researchers, and industry leaders discussing the future of artificial intelligence and machine learning."
+        },
+        {
+            "name": "Hyderabad Music Fest",
+            "date": "20-04-2025",
+            "venue": "Nehru Stadium, Hyderabad",
+            "lat": 17.5308,
+            "lng": 78.3985,
+            "link": "event-template.html?event=Hyderabad Music Fest",
+            "organizer": "Hyderabad Cultural Society",
+            "description": "An electrifying music festival featuring live performances from renowned artists across various genres."
+        },
+        {
+            "name": "Cybersecurity Awareness Workshop",
+            "date": "22-04-2025",
+            "venue": "Tech Park Auditorium",
+            "lat": 17.5750,
+            "lng": 78.3500,
+            "link": "event-template.html?event=Cybersecurity Awareness Workshop",
+            "organizer": "CyberSec India",
+            "description": "An interactive workshop focusing on best practices for cybersecurity, ethical hacking, and data protection."
+        },
+        {
+            "name": "Cloud Computing Bootcamp",
+            "date": "25-04-2025",
+            "venue": "Cloud Academy Center",
+            "lat": 17.5100,
+            "lng": 78.4100,
+            "link": "event-template.html?event=Cloud Computing Bootcamp",
+            "organizer": "Cloud Academy",
+            "description": "A hands-on training bootcamp covering cloud computing fundamentals, DevOps, and cloud security strategies."
+        }
+    ]
+}

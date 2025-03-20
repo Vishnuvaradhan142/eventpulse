@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="calendar.css">
+
+    <!-- FullCalendar Styles & Scripts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.11.3/main.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.11.3/main.min.js"></script>
+
+    <!-- Calendar Script -->
+    <script defer src="calendar.js"></script> 
+</head>
+<body>
+    <header>
+        <div class="logo">EventPulse</div>
+        <p class="tagline">Discover. Engage. Celebrate.</p>
+        <input type="text" placeholder="Search events..." class="search-bar">
+        
+        <!-- Logout Button -->
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </header>
+
+    <nav>
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='calendar.html'">Calendar</button>
+        <button onclick="window.location.href='favorites.html'">Favorites</button>
+        <button onclick="window.location.href='leaderboard.html'">Leaderboard</button>
+        <button onclick="window.location.href='events.html'">Events</button>
+        <button onclick="window.location.href='profile.html'">Profile</button>
+    </nav>
+
+    <main>
+        <section class="calendar-container">
+            <h2>Event Calendar</h2>
+            <div id="calendar"></div>
+        </section>
+
+        <section class="live-events">
+            <h2>Live Events</h2>
+            <ul id="live-events"></ul>
+        </section>
+
+        <section class="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <ul id="upcoming-events"></ul>
+        </section>
+
+        <section class="completed-events">
+            <h2>Completed Events</h2>
+            <ul id="completed-events"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">Help Center</a>
+        <a href="#">Feedback</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Social Media</a>
+    </footer>
+
+    <script>
+        function logout() {
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>

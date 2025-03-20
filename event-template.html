@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="eventTitle">Event Details</title>
+    <link rel="stylesheet" href="event-template.css">
+    <script defer src="event-template.js"></script>
+
+    <!-- Prevent favicon 404 error -->
+    <link rel="icon" href="data:,">
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">EventPulse</h1>
+        <button class="logout-btn" onclick="window.location.href='login.html'">Logout</button>
+    </header>
+
+    <nav>
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='calendar.html'">Calendar</button>
+        <button onclick="window.location.href='favorites.html'">Favorites</button>
+        <button onclick="window.location.href='leaderboard.html'">Leaderboard</button>
+        <button onclick="window.location.href='events.html'">Events</button>
+        <button onclick="window.location.href='profile.html'">Profile</button>
+    </nav>
+
+    <main class="event-container">
+        <div class="event-banner">
+            <img id="eventImage" src="images/default-banner.jpg" alt="Event Banner">
+        </div>
+
+        <div class="event-details">
+            <h2 id="eventName">Loading...</h2>
+            <p><strong>Date:</strong> <span id="eventDate">-</span></p>
+            <p><strong>Venue:</strong> <span id="eventVenue">-</span></p>
+            <p><strong>Organizer:</strong> <span id="eventOrganizer">-</span></p>
+            <p><strong>Description:</strong></p>
+            <p id="eventDescription">Loading event details...</p>
+        </div>
+
+        <!-- Registration & Navigation Buttons -->
+        <div class="button-group">
+            <button id="registerBtn" class="register-btn">Register for Event</button>
+            <button id="unregisterBtn" class="unregister-btn" style="display: none;">Unregister</button>
+            <button id="goBackBtn" class="back-btn">Go Back</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Help Center</a> |
+            <a href="#">Feedback</a> |
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Social Media</a>
+        </div>
+    </footer>
+
+</body>
+</html>

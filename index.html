@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventPulse - Discover. Engage. Celebrate.</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">EventPulse</div>
+        <p class="tagline">Discover. Engage. Celebrate.</p>
+        <input type="text" placeholder="Search events..." class="search-bar">
+        
+        <!-- Logout Button -->
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </header>
+
+    <nav>
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='calendar.html'">Calendar</button>
+        <button onclick="window.location.href='favorites.html'">Favorites</button>
+        <button onclick="window.location.href='leaderboard.html'">Leaderboard</button>
+        <button onclick="window.location.href='events.html'">Events</button>
+        <button onclick="window.location.href='profile.html'">Profile</button>
+    </nav>
+
+    <main>
+        <section class="pinned-events">
+            <h2>Pinned Events</h2>
+            <ul id="pinned-events"></ul>
+        </section>
+
+        <section class="map-preview">
+            <h2>Live Events Map</h2>
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <footer>
+    <div class="footer-links">
+        <a href="#">Help Center</a> |
+        <a href="#">Feedback</a> |
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Social Media</a>
+    </div>
+</footer>
+
+    <script>
+        function logout() {
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>

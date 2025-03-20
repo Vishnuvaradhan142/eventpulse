@@ -1,0 +1,25 @@
+{
+    "events": [],
+    "live": [
+        {
+            "name": "Hyderabad Tech Expo",
+            "date": "10-04-2025",
+            "venue": "Hyderabad International Trade Center",
+            "lat": 17.5401,
+            "lng": 78.3654,
+            "link": "event-template.html?event=Hyderabad Tech Expo",
+            "organizer": "TechWorld Solutions",
+            "description": "An exclusive event showcasing the latest innovations in technology."
+        },
+        {
+            "name": "Green Energy Conference",
+            "date": "10-04-2025",
+            "venue": "GreenTech Convention Hall",
+            "lat": 17.5500,
+            "lng": 78.3700,
+            "link": "event-template.html?event=Green Energy Conference",
+            "organizer": "Renewable India",
+            "description": "A conference focused on sustainable energy solutions for the future."
+        }
+    ]
+}

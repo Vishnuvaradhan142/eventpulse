@@ -1,0 +1,54 @@
+/* Push content below fixed header */
+main {
+    padding-top: 200px; /* Ensures calendar doesn't overlap */
+}
+
+/* Event Sections */
+.calendar-container, .live-events, .upcoming-events, .completed-events {
+    background: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style event lists */
+.live-events ul, .upcoming-events ul, .completed-events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.live-events li, .upcoming-events li, .completed-events li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: darkred;
+}
+
+/* Style event links */
+.live-events li a, .upcoming-events li a, .completed-events li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.live-events li a:hover, .upcoming-events li a:hover, .completed-events li a:hover {
+    text-decoration: underline;
+    color: #0073e6;
+}

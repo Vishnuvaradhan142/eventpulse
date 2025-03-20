@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Events</title>
+    <link rel="stylesheet" href="favorites.css">
+    <script defer src="favorites.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">EventPulse</div>
+        <p class="tagline">Your Favorite Events</p>
+
+        <!-- Logout Button -->
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </header>
+    <header>
+        <div class="logo">EventPulse</div>
+        <p class="tagline">Discover. Engage. Celebrate.</p>
+    
+        <!-- Search Bar -->
+        <input type="text" placeholder="Search events..." class="search-bar">
+    
+        <!-- Logout Button -->
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </header>
+    
+    <script>
+        function logout() {
+            window.location.href = "login.html";
+        }
+    </script>
+
+    <nav>
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='calendar.html'">Calendar</button>
+        <button onclick="window.location.href='favorites.html'">Favorites</button>
+        <button onclick="window.location.href='leaderboard.html'">Leaderboard</button>
+        <button onclick="window.location.href='events.html'">Events</button>
+        <button onclick="window.location.href='profile.html'">Profile</button>
+    </nav>
+
+    <main>
+        <section class="favorites-container">
+            <h2>Favorite Events</h2>
+            <ul id="favorite-events"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">Help Center</a>
+        <a href="#">Feedback</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Social Media</a>
+    </footer>
+
+    <script>
+        function logout() {
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+    "events": [
+        {
+            "name": "Tech Conference 2025",
+            "venue": "Silicon Valley Convention Center",
+            "lat": 37.3875,
+            "lng": -122.0575,
+            "link": "event-template.html?event=Tech Conference 2025",
+            "rating": 4.8,
+            "visitors": 5000,
+            "description": "A global technology conference featuring industry leaders, innovative startups, and groundbreaking advancements in AI, cloud computing, and cybersecurity."
+        },
+        {
+            "name": "Music Festival",
+            "venue": "Central Park, New York",
+            "lat": 40.7851,
+            "lng": -73.9683,
+            "link": "event-template.html?event=Music Festival",
+            "rating": 4.5,
+            "visitors": 8000,
+            "description": "An exhilarating music festival showcasing the best of rock, pop, and electronic music in the heart of New York City."
+        },
+        {
+            "name": "Startup Meetup",
+            "venue": "Startup Hub, San Francisco",
+            "lat": 37.7749,
+            "lng": -122.4194,
+            "link": "event-template.html?event=Startup Meetup",
+            "rating": 4.2,
+            "visitors": 2500,
+            "description": "A networking event for entrepreneurs, investors, and innovators to share ideas and connect in the startup ecosystem."
+        },
+        {
+            "name": "Art Expo",
+            "venue": "National Art Gallery, Paris",
+            "lat": 48.8566,
+            "lng": 2.3522,
+            "link": "event-template.html?event=Art Expo",
+            "rating": 4.6,
+            "visitors": 4000,
+            "description": "An international art exhibition featuring contemporary and classical masterpieces from renowned artists around the world."
+        }
+    ]
+}

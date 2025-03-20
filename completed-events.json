@@ -1,0 +1,54 @@
+{
+    "completed": [
+        {
+            "name": "Data Science Summit",
+            "date": "05-03-2025",
+            "venue": "Hyderabad International Convention Center",
+            "lat": 17.5200,
+            "lng": 78.4000,
+            "link": "event-template.html?event=Data Science Summit",
+            "organizer": "DataTech Institute",
+            "description": "A premier summit bringing together data scientists, AI researchers, and business leaders to explore the latest advancements in data-driven decision making."
+        },
+        {
+            "name": "IoT Innovations Conference",
+            "date": "28-02-2025",
+            "venue": "IoT Research Lab, Hyderabad",
+            "lat": 17.5300,
+            "lng": 78.3900,
+            "link": "event-template.html?event=IoT Innovations Conference",
+            "organizer": "IoT Global",
+            "description": "An industry-focused conference highlighting the latest breakthroughs and applications in the Internet of Things (IoT)."
+        },
+        {
+            "name": "Robotics Workshop",
+            "date": "10-03-2025",
+            "venue": "Tech Innovation Lab, Hyderabad",
+            "lat": 17.5000,
+            "lng": 78.4200,
+            "link": "event-template.html?event=Robotics Workshop",
+            "organizer": "Robotics Club",
+            "description": "A hands-on workshop designed for robotics enthusiasts and professionals to learn about automation, AI, and mechatronics."
+        },
+        {
+            "name": "Startup Pitch Event",
+            "date": "05-03-2025",
+            "venue": "Startup Incubator, Hyderabad",
+            "lat": 17.5900,
+            "lng": 78.3600,
+            "link": "event-template.html?event=Startup Pitch Event",
+            "organizer": "Investor Group",
+            "description": "A networking event where startups pitch their business ideas to a panel of investors and industry leaders."
+        },
+        {
+            "name": "Women in Tech Conference",
+            "date": "05-03-2025",
+            "venue": "Tech Park Auditorium",
+            "lat": 17.5150,
+            "lng": 78.4050,
+            "link": "event-template.html?event=Women in Tech Conference",
+            "organizer": "TechWomen India",
+            "description": "An inspiring conference celebrating women in technology, leadership, and entrepreneurship, featuring keynote speakers and panel discussions."
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+    <link rel="stylesheet" href="event-management.css">
+    <script defer src="event-management.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Event Management</h1>
+        <button  style="background-color: red;" id="logoutBtn" class="logout-btn">Logout</button>
+    </header>
+
+    <main>
+        <h2>My Events</h2>
+        <div id="organizerInfo"></div>
+
+        <!-- Add Event Form -->
+        <div id="addEventSection">
+            <h3>Add New Event</h3>
+            <input type="text" id="eventName" placeholder="Event Name" required>
+            <input type="date" id="eventDate" required>
+            <input type="text" id="eventVenue" placeholder="Venue" required>
+            <input type="text" id="eventDescription" placeholder="Event Description" required></textarea>
+            <button id="addEventBtn">Add Event</button>
+        </div>
+
+        <div id="eventList">
+            <h3>Your Managed Events</h3>
+            <ul id="myEvents">Loading...</ul>
+        </div>
+    </main>
+
+</body>
+</html>
